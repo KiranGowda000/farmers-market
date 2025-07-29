@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/farmers-market/static/css/main.767d70c2.css",
-    "main.js": "/farmers-market/static/js/main.811fbf9d.js",
+    "main.js": "/farmers-market/static/js/main.857797d1.js",
     "static/media/veggies.png": "/farmers-market/static/media/veggies.f80e2cb69ce6e2c3c7db.png",
     "static/media/news1.jpg": "/farmers-market/static/media/news1.234062e7923d8a824f7f.jpg",
     "static/media/news2.jpg": "/farmers-market/static/media/news2.b55ae15b19778fa61285.jpg",
     "static/media/news3.jpg": "/farmers-market/static/media/news3.46c55fe9ea3386c95348.jpg",
     "index.html": "/farmers-market/index.html",
     "main.767d70c2.css.map": "/farmers-market/static/css/main.767d70c2.css.map",
-    "main.811fbf9d.js.map": "/farmers-market/static/js/main.811fbf9d.js.map"
+    "main.857797d1.js.map": "/farmers-market/static/js/main.857797d1.js.map"
   },
   "entrypoints": [
     "static/css/main.767d70c2.css",
-    "static/js/main.811fbf9d.js"
+    "static/js/main.857797d1.js"
   ]
 }
