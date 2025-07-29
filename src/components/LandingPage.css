@@ -1,0 +1,118 @@
+.landing-page {
+  background: url('../assets/veggies.png') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar {
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(207, 215, 207);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #dcd4d4;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: rgb(7, 13, 7);
+}
+
+.overlay {
+  text-align: center;
+  padding: 60px 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.login-options {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.login-button {
+  background: green;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.login-button:hover {
+  background: darkgreen;
+}
+
+.social-media-icons {
+  margin-top: 20px;
+}
+
+.social-media-icons a {
+  margin: 0 10px;
+  color: white;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-media-icons a:hover {
+  color: #ccc;
+}
+ /* ✅ Mobile Responsiveness */
+@media (max-width: 768px) {
+  .landing-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .landing-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .landing-hero h1 {
+    font-size: 2rem;
+  }
+
+  .landing-hero p {
+    font-size: 1rem;
+  }
+
+  .get-started-btn {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .logo {
+    width: 120px;
+  }
+}

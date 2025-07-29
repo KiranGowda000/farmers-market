@@ -1,0 +1,77 @@
+.contact-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+  }
+  
+  .contact-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2d6a4f;
+  }
+  
+  .contact-details {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #edf6f9;
+    border-radius: 10px;
+  }
+  
+  .contact-details p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .contact-form {
+    background-color: #f1f8f3;
+    padding: 25px;
+    border-radius: 10px;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+    color: #40916c;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #b7e4c7;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .contact-form button {
+    background-color: #2d6a4f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #1b4332;
+  }
+  .back-home-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .back-home-button:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,101 @@
+ /* Full-screen background with image */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://plus.unsplash.com/premium_photo-1661962692059-55d5a4319814?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmFybWluZyUyMGltYWdlfGVufDB8fDB8fHww');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 20px;
+}
+
+/* Centered login card */
+.login-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  backdrop-filter: blur(8px);
+}
+
+/* Heading */
+.login-card h2 {
+  margin-bottom: 25px;
+  color: #2e7d32;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form fields */
+.login-card label {
+  display: block;
+  margin: 12px 0 5px;
+  font-weight: 600;
+  color: #333;
+  text-align: left;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border-color 0.3s;
+  margin-bottom: 15px;
+}
+
+.login-card input:focus {
+  border-color: #2575fc;
+  outline: none;
+}
+
+/* Button */
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #2e7d32, #1b5e20);
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.login-card button:hover {
+  background: linear-gradient(135deg, #1b5e20, #0f3d15);
+}
+
+/* Link text */
+.login-card p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-card a {
+  color: #2575fc;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-card a:hover {
+  text-decoration: underline;
+}
+.admin-link-button {
+  background: none;
+  color: #69c96d;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.admin-link-button:hover {
+  text-decoration: underline;
+}

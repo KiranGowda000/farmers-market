@@ -1,0 +1,36 @@
+.help-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .faq-section {
+    margin-top: 20px;
+  }
+  
+  .faq-section h3 {
+    color: #2c3e50;
+    margin-top: 15px;
+  }
+  
+  .faq-section p {
+    margin-left: 10px;
+    color: #555;
+  }
+  
+  .back-home-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .back-home-button:hover {
+    background-color: #0056b3;
+  }
+  

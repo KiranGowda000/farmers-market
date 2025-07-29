@@ -1,0 +1,71 @@
+ /* src/pages/FarmerRegister.css */
+.register-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .register-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2e7d32;
+  }
+  
+  .register-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  .register-form input,
+  .register-form textarea {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .register-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2e7d32;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .register-form button:hover {
+    background-color: #1b5e20;
+  }
+  
+  .register-form p {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #444;
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: #2e7d32;
+  }
+  
