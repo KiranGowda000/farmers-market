@@ -1,6 +1,7 @@
  // App.jsx
 import React from 'react';
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+//import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './components/LandingPage';
 import FarmerLogin from './components/auth/FarmerLogin';
 import ConsumerLogin from './components/auth/ConsumerLogin';
@@ -26,7 +27,7 @@ import CartPage from './components/CartPage';
 const App = () => {
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <Router>
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/farmer-login" element={<FarmerLogin />} />
@@ -51,7 +52,7 @@ const App = () => {
 
 
         </Routes>
-      </BrowserRouter>
+      </Router>
     </Provider>
   );
 };
